@@ -1,0 +1,144 @@
+/* vVVVvvvvvvV Geral footer */
+
+footer{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+/* ^^^^^^^^^^ Geral footer */
+
+
+/* Imagen div footer vvvvvv */
+.section-box-img{
+    margin-top: 2.9rem;
+    width: 400px;
+    height: 300px;
+    display: flex;
+}
+
+.img-footer{
+    width: 80%;
+}
+/* Imagen footer ^^^^^^ */
+
+/* vvvvvv Logo e informaçoes do footer*/
+.footer-infos{
+    width: 600px;
+    height: 100%;
+}
+
+.logo-footer{
+    position: absolute;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--second-font);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 2.5rem;
+    margin-left: 33rem;
+    font-weight: 800;
+}
+
+
+
+.p-info{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* VVVVVVVV listas do hotel e contatos */
+.infos{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--first-font);
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    margin-top: 2.5rem;
+}
+
+.hotel{
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-style: none;
+}
+
+.hotel h2{
+    font-size: 30px;
+}
+
+.hotel li a{
+    display: inline-block;
+    color: grey;
+    padding: 0.5em;
+    transition: 0.5s;
+}
+
+.hotel li a:hover{
+    color: var(--secondary-color);
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contatos h2{
+    font-size: 30px;
+}
+
+.contatos ul{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    transition: 0.5s;
+}
+
+.contatos ul li{
+    display: inline-block;
+    padding: 0.5em;
+    transition: 0.5s;
+}
+
+.contatos ul li:hover{
+    color: var(--secondary-color);
+}
+
+hr{
+border: 2;
+	border-top: 1px solid var(--second-color);
+}
+
+
+.box-copy{
+    width: 100%;
+   height: 70px;
+   display: flex;
+   position: absolute;
+   flex-direction: column;
+   background-color: rgb(252, 252, 252);
+   margin-top: 330px;
+}
+
+.box-copy h5{
+    font-family: var(--first-font);
+    color: grey;
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
